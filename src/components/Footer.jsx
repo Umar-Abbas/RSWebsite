@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto py-8 px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h2 className="text-2xl font-bold mb-4 text-green-500">Matrix App</h2>
+            <h2 className="text-2xl font-bold mb-4 text-green-500">ReactiveSpace</h2>
             <p className="text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               aliquam massa arcu, eget fringilla felis commodo at.

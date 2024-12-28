@@ -45,7 +45,7 @@ const Navbar = () => {
         className="flex items-center"
       >
         <h1 className="text-[#00FF00] cursor-pointer hover:text-white text-xl font-bold ml-6">
-          ReactiveSpace AI
+          ReactiveSpace 
         </h1>
       </motion.div>
       <motion.div
