@@ -16,8 +16,7 @@ const Footer = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4 text-green-500">ReactiveSpace</h2>
             <p className="text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              aliquam massa arcu, eget fringilla felis commodo at.
+            Building the future of AI applications.
             </p>
             <div className="flex mt-4">
               <a
