@@ -15,7 +15,7 @@ const Features = () => {
     <section className="bg-transparent px-10 py-10 mb-[340px]" id="features" ref={ref}>
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-10">
-          Key Features
+        Build Powerful AI Applications
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <motion.div
@@ -25,10 +25,10 @@ const Features = () => {
             transition={{ duration: 0.8 }}
           >
             <img src={coms} alt="Feature Icon" className="w-16 h-16 mb-4" />
-            <h3 className="text-xl font-bold text-white mb-2">Feature 1</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Natural Language Processing</h3>
             <p className="text-gray-300 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              vitae scelerisque elit.
+            Build intelligent applications that understand and process
+             human language with state-of-the-art LLMs.
             </p>
           </motion.div>
           <motion.div
@@ -38,10 +38,10 @@ const Features = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <img src={EarPhone} alt="Feature Icon" className="w-16 h-16 mb-4" />
-            <h3 className="text-xl font-bold text-white mb-2">Feature 2</h3>
+            <h3 className="text-xl font-bold text-white mb-2">AI Agents & Automation</h3>
             <p className="text-gray-300 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              vitae scelerisque elit.
+            Create autonomous agents that can perform complex tasks 
+            and make decisions using advanced reasoning
             </p>
           </motion.div>
           <motion.div
@@ -51,10 +51,10 @@ const Features = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <img src={Location} alt="Feature Icon" className="w-16 h-16 mb-4" />
-            <h3 className="text-xl font-bold text-white mb-2">Feature 3</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Knowledge Integration</h3>
             <p className="text-gray-300 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              vitae scelerisque elit.
+            Connect your LLMs with external data sources and 
+            knowledge bases for enhanced capabilities.
             </p>
           </motion.div>
           
