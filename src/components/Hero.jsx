@@ -13,7 +13,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl md:text-4xl lg:text-6xl font-bold text-white mb-6 mt-24 text-center"
         >
-          Welcome to Matrix App
+          We Build the Future with LLM Applications
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
@@ -21,7 +21,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl lg:text-2xl text-white mb-10 text-center"
         >
-          Experience the power of the Matrix
+          Develop powerful AI applications using cutting-edge language models
         </motion.p>
         <CustomButton text="Get Started" link="features" />
       </div>
