@@ -6,18 +6,18 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'John Doe',
-      quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam felis velit, a placerat ligula lacinia et.',
+      name: 'API Development',
+      quote: 'Custom LLM Integration.',
     },
     {
       id: 2,
       name: 'Jane Smith',
-      quote: 'Vestibulum nec metus quis justo vestibulum vestibulum. Morbi varius nunc sit amet dui faucibus, ut laoreet elit semper.',
+      quote: 'Ai Agents.',
     },
     {
       id: 3,
       name: 'David Johnson',
-      quote: 'Aenean sagittis ligula ac velit pellentesque, at pretium elit tincidunt. Nunc eleifend arcu at sapien ullamcorper iaculis.',
+      quote: 'Intelligent Chatbots.',
     },
   ];
 
@@ -45,7 +45,7 @@ const Testimonials = () => {
     <section className="bg-transparent bg-opacity-20 backdrop-filter backdrop-blur-md px-10 py-16 mb-[300px]" id="testimonials" >
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-10">
-          Testimonials
+          Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
